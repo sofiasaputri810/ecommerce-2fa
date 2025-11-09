@@ -106,5 +106,5 @@ export const authOptions: NextAuthOptions = {
 // 2. Buat handler dari options
 const handler = NextAuth(authOptions);
 
-// 3. Ekspor handler seperti biasa
+
 export { handler as GET, handler as POST };
